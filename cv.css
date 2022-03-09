@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+
+ --mainColor :  white;
+}
+
+
+
+
+
+header{
+
+
+    height: 200px;
+    width: 100%;
+    background-image: url(./IMG_WEB.jpeg);
+    background-size: cover;
+    display: flex;
+
+}
+
+.prenom{
+
+    align-items: center;
+    justify-content: center;
+
+  }
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+
+    }
+
+.PHOTO{
+
+    max-height: 150px;
+    max-width: 150px;
+    float: left;
+
+}
+
+body{
+
+    background-color: rgb(137, 205, 245);
+}
+
+/*-----partie contact-----*/
+
+.blocnav{
+
+    
+    padding-left: 40px;
+    margin: auto;
+    height: 150px;
+    width: 90%;
+    background-color: var(--mainColor);
+   }
+
+
+
+#ICONEADRESSE{
+
+width: 10%;
+height: 10%;
+float: left;
+}
+
+
+/*--partie experiences professionelles--*/
+
+.exppro{
+    padding-left: 50px;
+    height: 300px;
+    width: 90%;
+    background-color: var(--mainColor);
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 30px;
+}
+
+/*--formation--*/
+
+.formation{
+
+    height: 150px;
+    width: 90%;
+    background-color: var(--mainColor);
+    margin: auto;
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-top: 30px;
+
+}
+
+
+/*--competences--*/
+
+
+.competences{
+
+    height: 200px;
+    width: 90%;
+    background-color: var(--mainColor);
+    margin: auto;
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.CI{
+
+    height: 250px;
+    width: 90%;
+    background-color: var(--mainColor);
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 30px;
+
+}
+h1{
+
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+/*---images centre d'interet---*/
+
+h2{
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: large;
+    text-align: center;
+}
+
+
+   .img1{
+    height: 150px ;
+    width: 100px;
+
+   }
+
+   .img2{
+    height: 100px ;
+    width: 100px;
+   }
+
+  .img3{
+    height: 100px ;
+    width: 100px;  
+   }
+   .img4{
+
+    height: 100px ;
+    width: 150px;
+   }
+
+
+   
+
+   .imgCI{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+   }
+
+   /*--responsive--*/
+
+   @media all and (max-width : 570px) {
+
+    .exppro{
+        display: block;
+        height: 100%;
+        width: 100%;
+        background-color: var(--mainColor);
+        margin: auto;
+    }
+}
